@@ -8,6 +8,7 @@ let {state} = useContext(MyContext)
 
     return(
         <div>
+            <h2>{state.name}</h2>
             <h2>{state.counter}</h2>
         </div>
 
